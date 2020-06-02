@@ -90,6 +90,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NfcNci
 
+# DT2W
+PRODUCT_PACKAGES += \
+    DT2W-Service-MT6768
+
 # KPOC
 PRODUCT_PACKAGES += \
     libsuspend \
