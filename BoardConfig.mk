@@ -85,6 +85,7 @@ BOARD_PREBUILT_DTBIMAGE_DIR := device/xiaomi/lava-kernel/dtb
 TARGET_PREBUILT_KERNEL := device/xiaomi/lava-kernel/kernel
 TARGET_KERNEL_HEADERS := device/xiaomi/lava-kernel/mt6768/kernel-headers
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+TARGET_FORCE_PREBUILT_KERNEL := true
 #TARGET_KERNEL_CLANG_COMPILE := true
 #TARGET_KERNEL_CLANG_VERSION := r353983c
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
