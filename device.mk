@@ -125,3 +125,7 @@ PRODUCT_COPY_FILES += \
 # Performance level
 PRODUCT_PACKAGES += \
     init.performance_level.rc
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.1-service.lava
