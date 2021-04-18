@@ -128,4 +128,5 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.1-service.lava
+    android.hardware.usb@1.1-service.lava \
+    android.hardware.usb.gadget@1.1-service.lava
