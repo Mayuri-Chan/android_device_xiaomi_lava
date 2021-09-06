@@ -60,10 +60,6 @@ PRODUCT_PACKAGES += \
     init.mt6768.rc \
     fstab.mt6768
 
-# DT2W
-PRODUCT_PACKAGES += \
-    DT2W-Service-Lava
-
 # Fstab
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6768
