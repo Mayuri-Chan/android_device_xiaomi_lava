@@ -94,6 +94,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DT2W-Service-MT6768
 
+PRODUCT_COPY_FILES += \
+   $(DEVICE_PATH)/dt2w/dt2w_event:$(TARGET_COPY_OUT_VENDOR)/bin/dt2w_event
+
 # KPOC
 PRODUCT_PACKAGES += \
     libsuspend \
