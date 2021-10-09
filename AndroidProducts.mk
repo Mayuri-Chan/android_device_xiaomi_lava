@@ -15,9 +15,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/nad_lava.mk
+   $(LOCAL_DIR)/nad_lava.mk \
+   $(LOCAL_DIR)/lava.mk
 
 COMMON_LUNCH_CHOICES := \
     nad_lava-user \
     nad_lava-userdebug \
-    nad_lava-eng
+    nad_lava-eng \
+    lava-user \
+    lava-userdebug \
+    lava-eng
