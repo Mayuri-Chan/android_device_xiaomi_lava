@@ -32,7 +32,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 # Official tag
-NAD_BUILD_TYPE := OFFICIAL
+NAD_BUILD_TYPE := BETA
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lava
